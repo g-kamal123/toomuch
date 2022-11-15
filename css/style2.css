@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px dashed #2563EB;
+    margin: 0;
+    position: relative;
+}
+
+/** common styles **/
+
+.text--c-persian-blue{
+    color: #1D4ED8;
+}
+
+.text--c-royal-blue{
+    color: #2563EB;
+}
+
+.bg--pattens-blue{
+    background-color: #DBEAFE;
+}
+
+.bg--french-pass{
+    background-color: #BFDBFE;
+}
+
+.bg--zumthor{
+    background-color: #EFF6FF;
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.parent{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: calc(100% - 150px);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-section__div{
+    flex: 0 0 50%;
+}
+
+.first-section__div--graphics{
+    min-width: 50%;
+    border: 1px solid #808080;
+    position: absolute;
+    right: 0;
+}
+
+.first-section__empty{
+    height: 14rem;
+}
+
+.first-section__stars{
+    height: 15rem;
+    max-width: fit-content;
+    padding: 4px;
+}
+
+.first-section__stars svg{
+    height: 100%;
+    width: 100%;
+}
+
+.first-section__overflow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 25rem;
+    margin-top: -200px;
+    margin-left: 40px;
+    border: 1px dashed #1D4ED8;
+}
